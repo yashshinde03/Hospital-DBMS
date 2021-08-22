@@ -1,0 +1,165 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+html, body, .wrapper
+{
+    width: 100%;
+    height: 100%;
+}
+
+body, button, input, textarea
+{
+    color: #e64646;
+}
+
+main
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Economical";
+    overflow: hidden;
+    min-width: 320px;
+    display: flex;
+}
+
+body
+{
+    font-size: 1rem;
+    text-rendering: optimizeLegibility;
+    display: flex;
+}
+
+div
+{
+    display: flexbox;
+}
+
+.header-container
+{
+    padding: 20px;
+    width: 100%;
+    height: 7.5%;
+}
+.header-text
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.menu
+{
+    width: 100%;
+    height: 100%;
+}
+
+nav
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+nav ul
+{
+    height: 100%;
+    overflow: none;
+    list-style: none;
+    list-style-image: none;
+}
+
+nav ul a
+{
+    text-decoration: none;
+    position: inherit;
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    display: list-item;
+    text-align: center;
+}
+
+nav ul a li
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+a :hover
+{
+    color:#0b07ff;
+}
+
+nav ul a li hgroup
+{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    /* display: table; */
+}
+
+nav ul a li div
+{
+    padding: 5%;
+}
+
+nav ul 
+.table-cell h1
+{
+    position: relative;
+    font-size: 3.5rem;
+    font-family: "Great Vibes";
+}
+.table-cell hr
+{
+    width: 40%;
+    margin: auto;
+    border: 0 none;
+    border-top: 2px solid rgba(225,225,225,.9);
+}
+
+.table-cell
+{
+    padding: 0, 20%;
+    height: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bottom-gradient-line
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background-image: linear-gradient(to right, #31388d 0%, #753fa9 33.333%, #ff0762 66%, #f25632 100%);
+}
+
+@keyframes colorswitch {
+    from{background-color: #90d5ec;}
+    to{background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);}
+}
+.columns
+{
+    border-radius: 20px;
+    transition: 1s;
+}
+.columns:hover
+{
+    background-color: #90d5ec;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);    
+}
